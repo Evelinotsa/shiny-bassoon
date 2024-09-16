@@ -1,7 +1,7 @@
 {
   "name": "shiny-bassoon",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/shiny-bassoon",
+  "homepage": "https://Evelinotsa.github.io/shiny-bassoon/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.13",
     "typescript": "^4.9.5",
