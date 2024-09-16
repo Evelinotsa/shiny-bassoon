@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shiny-bassoon/static/css/main.2aa09b3c.css",
+    "main.js": "/shiny-bassoon/static/js/main.d090a84b.js",
+    "static/js/453.eea0f4dd.chunk.js": "/shiny-bassoon/static/js/453.eea0f4dd.chunk.js",
+    "index.html": "/shiny-bassoon/index.html",
+    "main.2aa09b3c.css.map": "/shiny-bassoon/static/css/main.2aa09b3c.css.map",
+    "main.d090a84b.js.map": "/shiny-bassoon/static/js/main.d090a84b.js.map",
+    "453.eea0f4dd.chunk.js.map": "/shiny-bassoon/static/js/453.eea0f4dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa09b3c.css",
+    "static/js/main.d090a84b.js"
+  ]
+}
