@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shiny-bassoon/static/css/main.2aa09b3c.css",
-    "main.js": "/shiny-bassoon/static/js/main.d090a84b.js",
+    "main.css": "/shiny-bassoon/static/css/main.733e90d4.css",
+    "main.js": "/shiny-bassoon/static/js/main.c15ae8da.js",
     "static/js/453.eea0f4dd.chunk.js": "/shiny-bassoon/static/js/453.eea0f4dd.chunk.js",
     "index.html": "/shiny-bassoon/index.html",
-    "main.2aa09b3c.css.map": "/shiny-bassoon/static/css/main.2aa09b3c.css.map",
-    "main.d090a84b.js.map": "/shiny-bassoon/static/js/main.d090a84b.js.map",
+    "main.733e90d4.css.map": "/shiny-bassoon/static/css/main.733e90d4.css.map",
+    "main.c15ae8da.js.map": "/shiny-bassoon/static/js/main.c15ae8da.js.map",
     "453.eea0f4dd.chunk.js.map": "/shiny-bassoon/static/js/453.eea0f4dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aa09b3c.css",
-    "static/js/main.d090a84b.js"
+    "static/css/main.733e90d4.css",
+    "static/js/main.c15ae8da.js"
   ]
 }
