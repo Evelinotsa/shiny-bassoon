@@ -1,19 +1,13 @@
-import './App.css';
-import MyButton from "./components/MyButton";
-import MyContainer from './layout/MyContainer';
-import Login from './components/Login';
 import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
 function App() {
   return (
-  //<MyContainer>
-   // <Login />
-  //</MyContainer>
-  <>
-    <h1>Header</h1>
-    <Outlet />
-  </>
-  )
+    <>
+      <Header />
+      <Outlet />
+    </>
+  );
 }
 
 export default App;

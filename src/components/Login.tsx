@@ -1,63 +1,49 @@
-import { Box, Button, Stack, TextField, Typography } from "@mui/material"
-import { FormEvent, useState, useEffect } from "react"
+import { Box, Button, TextField, Typography } from '@mui/material';
+import { useState } from 'react';
 
-export default function MyForm() {
-  const [form, setForm] = useState({ username: "", password: "" })
-  //const [username, setUsername] = useState("");
-  //const [password, setPassword] = useState("");
+function Login() {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    console.log(form)
-  }
+  const handleLogin = () => {
+    console.log('Username:', username);
+    console.log('Password:', password);
+  };
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setForm(prevForm => ({
-      ...prevForm,
-      [event.target.name]: event.target.value,
-    }))
-  }
   return (
-    <Box
-      sx={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100%",
-      }}
-    >
-      <form onSubmit={handleSubmit}>
-        <Stack gap={2}>
-          <Typography
-            variant="h3"
-            sx={{ textAlign: "center", textTransform: "uppercase" }}
-          >
-            Login
-          </Typography>
-          <TextField
-            name="username"
-            label="Username"
-            variant="outlined"
-            //onChange={(event) => setUsername(event.target.value)}
-            onChange={handleChange}
-            // value={form.username}
-          />
-          <TextField
-            name="password"
-            label="Password"
-            variant="outlined"
-            //onChange={(event) => setPassword(event.target.value)}
-            onChange={handleChange}
-            // value={form.password}
-          />
-          <Button
-            variant="contained"
-            type="submit"
-          >
-            Login
-          </Button>
-        </Stack>
-      </form>
+    <Box sx={{margin: "auto", padding: 10 }}>
+      <Typography variant="h4">Login</Typography>
+      <Box component="form" sx={{ mt: 2 }}>
+        <TextField
+          label="Username"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+        />
+        <TextField
+          label="Password"
+          type="password"
+          variant="outlined"
+          fullWidth
+          margin="normal"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <Button variant="contained" sx={{
+            mt: 2,
+            backgroundColor: "#997f7c",
+            color: "#fff",
+            "&:hover": {
+              backgroundColor: "#756260",
+            },
+          }} onClick={handleLogin}>
+          Submit
+        </Button>
+      </Box>
     </Box>
-  )
+  );
 }
+
+export default Login;
