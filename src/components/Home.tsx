@@ -36,7 +36,7 @@ function Home() {
               backgroundColor: "#756260",
             },
           }} component={Link} to="/hobbies">
-              My hobbies and interests
+              About me
             </Button>
             <Button variant='contained' sx={{
             mt: 2,
@@ -57,21 +57,28 @@ function Home() {
           <img 
             src="https://cdn.pixabay.com/photo/2024/04/17/17/02/box-8702500_1280.jpg"
             alt='kass kastis'
-            style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
+            style={{ width: '100%', maxWidth: '170px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
           />
         </Grid2>
         <Grid2 display="flex" justifyContent="center">
           <img  
             src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_1280.png"
             alt='kassi pea'
-            style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
+            style={{ width: '100%', maxWidth: '170px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
           />
         </Grid2>
         <Grid2 display="flex" justifyContent="center">
           <img  
             src="https://cdn.pixabay.com/photo/2024/02/15/16/57/cat-8575768_960_720.png"
             alt='kass ja kollane taust'
-            style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
+            style={{ width: '100%', maxWidth: '170px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
+          />
+        </Grid2>
+        <Grid2 display="flex" justifyContent="center">
+          <img  
+            src="https://cdn.pixabay.com/photo/2023/11/24/18/52/cat-8410502_1280.jpg"
+            alt='kass ja lillepott'
+            style={{ width: '100%', maxWidth: '170px', height: 'auto', objectFit: 'cover', borderRadius: '8px' }}
           />
         </Grid2>
       </Grid2>
